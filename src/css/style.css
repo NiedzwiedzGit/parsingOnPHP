@@ -1,0 +1,59 @@
+#firstTask {
+  text-align: center;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+
+table,
+th,
+td {
+  font-size: 20px;
+}
+
+#loadImg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  visibility: hidden;
+}
+
+#loadImg.show {
+  visibility: visible;
+}
+
+.createMessage {
+  background-color: antiquewhite;
+  font-size: 30px;
+  width: 100%;
+}
+input {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+button {
+  position: absolute;
+  top: 20%;
+  left: 46%;
+  width: 200px;
+  height: 50px;
+}
+
+#createDB {
+  position: absolute;
+  visibility: hidden;
+}
+
+.buttonDBgroup {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+#parsingDB {
+  position: relative;
+  float: left;
+  clear: both;
+  margin: 3px;
+}
